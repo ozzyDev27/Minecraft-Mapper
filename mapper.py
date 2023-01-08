@@ -29,3 +29,4 @@ mosaic.save(r"map.png")
 print(occurance)
 blocksNeeded=[(f"{num+1}:{occurance[num]//64} stacks and {occurance[num]%64}" if occurance[num]//64!=0 else f"{num+1}:{occurance[num]}") for num in range(61) if occurance[num]!=0]
 print('\n'.join(blocksNeeded))
+#
